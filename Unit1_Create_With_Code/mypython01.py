@@ -12,4 +12,4 @@ age = int(input("what is your age? "))
 age = 20 + age
  
 # output
-print("Hi, " +name,", Your age in 20 years will be", age)
+print('Hi,'+name, ", Your age in 20 years will be", age)
