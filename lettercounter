@@ -1,0 +1,4 @@
+book = input("what is the title of your book?")
+count = 0
+for character in book
+count = count + 1
