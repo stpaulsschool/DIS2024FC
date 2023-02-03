@@ -1,3 +1,5 @@
-for index, string in enumerate(strings):
-  print(index)
-  pring(name)
+
+strings = "HeLlO"
+for index in enumerate(strings):
+    if index.isupper():
+        print(index)
