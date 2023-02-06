@@ -1,5 +1,9 @@
 
 strings = "HeLlO"
-for index in enumerate(strings):
-    if index.isupper():
-        print(index)
+capital = []
+for index, letter in enumerate(strings):
+    if letter.isupper():
+        capital.append(index)
+    return capital
+print(strings("HeLlO"))
+
