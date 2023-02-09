@@ -17,23 +17,15 @@ if guess3 < num:
     print("wrong guess, try guessing higher")
 else:
     print("not quite, try guessing lower.")
-guess = int(input("what number is your guess?"))
-if guess < num:
+guess4 = int(input("what number is your guess?"))
+if guess4 < num:
     print("wrong guess, try guessing higher")
 else:
     print("not quite, try guessing lower.")
-guess = int(input("what number is your guess?"))
-if guess < num:
+guess5 = int(input("what number is your guess?"))
+if guess5 < num:
     print("wrong guess, try guessing higher")
 else:
     print("not quite, try guessing lower.")
-guess = int(input("what number is your guess?"))
-if guess < num:
-    print("wrong guess, try guessing higher")
-else:
-    print("not quite, try guessing lower.")
-
-
-
-
+guess6 = int(input("what number is your final guess?"))
 
