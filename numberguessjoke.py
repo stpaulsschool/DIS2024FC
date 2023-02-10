@@ -28,4 +28,7 @@ if guess5 < num:
 else:
     print("not quite, try guessing lower.")
 guess6 = int(input("what number is your final guess?"))
+if guess6 == num:
 
+else:
+    print("you lost, the number was", num)
