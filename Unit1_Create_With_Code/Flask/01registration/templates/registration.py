@@ -2,7 +2,8 @@
 from flask_wtf import Form
 from wtforms import String Field, PasswordField, SubmitField
 from wtforms import validators, ValidationError
-from wtforms.validators import InputRequired, Email
+from wtforms.validators import InputRequired, Email, EqualTo
+from testemail import IsUnique
 
 
 
@@ -12,4 +13,4 @@ class Registration(Form):
     password = PasswordField('password',[validators.InputRequired ("please enter a password")])
     confirm password = PasswordField("confirm password". [validators.InputRequired ("password"), validators.EqualTo("password", "passwords must match")])
 
-    submit =
+    submit = SubmitField("Submit")
