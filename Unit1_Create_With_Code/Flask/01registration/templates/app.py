@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 from registration import Registration
-# from testemail import IsUnique
+from testemail import IsUnique
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'a very long string'
 
